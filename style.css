@@ -13,17 +13,6 @@ body {
   margin: 0;
 }
 
-/* Dark Mode Variables Override */
-#darkModeToggle:checked ~ * {
-  --primary-color: #f8f9fa;
-  --accent-color: #0d6efd;
-  --light-color: #121212;
-  --dark-color: #ffffff;
-  background-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* Navbar */
 .navbar {
   background: var(--primary-color);
   color: white;
@@ -69,7 +58,6 @@ body {
   background-color: var(--accent-color);
 }
 
-/* Hero */
 .hero {
   background: url('hero.jpg') center/cover no-repeat;
   padding: 6rem 2rem;
@@ -86,7 +74,6 @@ body {
   margin-top: 0.5rem;
 }
 
-/* Section Title */
 .section-title {
   text-align: center;
   font-size: 2rem;
@@ -94,7 +81,6 @@ body {
   color: var(--primary-color);
 }
 
-/* Cards */
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -138,7 +124,6 @@ body {
   margin-top: 0.5rem;
 }
 
-/* Contact Section */
 .contact-section {
   background: #e2e8f0;
   padding: 3rem 2rem;
@@ -174,7 +159,6 @@ body {
   background: #1c70d0;
 }
 
-/* Footer */
 .footer {
   background: var(--primary-color);
   color: white;
@@ -183,7 +167,6 @@ body {
   margin-top: 3rem;
 }
 
-/* Modal Sign In */
 .modal {
   position: fixed;
   top: 0;
@@ -245,7 +228,6 @@ body {
   cursor: pointer;
 }
 
-/* Toggle Switch */
 .theme-toggle {
   position: relative;
   display: inline-block;
@@ -291,20 +273,6 @@ body {
   transform: translateX(20px);
 }
 
-/* Carousel */
-.carousel {
-  position: relative;
-  max-width: 100%;
-  margin: 1rem auto;
-  overflow: hidden;
-  border-radius: var(--radius);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.carousel-inner input[type="radio"] {
-  display: none;
-}
-
 .slides {
   display: flex;
   width: 300%;
@@ -325,11 +293,6 @@ body {
   object-fit: cover;
   filter: brightness(0.5);
   transition: filter 0.3s ease;
-}
-
-/* Dark mode: lighten images */
-#darkModeToggle:checked ~ * .slide img {
-  filter: brightness(0.7);
 }
 
 .caption {
@@ -363,30 +326,4 @@ body {
 
 #slide3:checked ~ .slides {
   transform: translateX(-200%);
-}
-
-.carousel-controls {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-  pointer-events: none;
-}
-
-.carousel-controls label {
-  background-color: rgba(0,0,0,0.5);
-  color: white;
-  font-size: 2rem;
-  padding: 0.2rem 0.6rem;
-  cursor: pointer;
-  pointer-events: auto;
-  user-select: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.carousel-controls label:hover {
-  background-color: rgba(0,0,0,0.8);
 }
