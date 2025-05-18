@@ -15,9 +15,8 @@ Check out the live website: [https://fdjts.github.io/Infiniware/](https://fdjts.
 
 ## Tech Stack
 
-- HTML5
-- CSS3 (with Bootstrap or Tailwind CSS)
-- JavaScript (Vanilla)
+- HTML
+- CSS
 - Hosted on GitHub Pages
 
 ## Getting Started
