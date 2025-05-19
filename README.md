@@ -24,7 +24,7 @@ Check out the live website: [https://fdjts.github.io/Infiniware/](https://fdjts.
 To preview or modify the project locally:
 
 ```bash
-git clone https://github.com/yourusername/Infiniware.git
+git clone https://github.com/FDJTS/Infiniware.git
 cd Infiniware
 ```
 
