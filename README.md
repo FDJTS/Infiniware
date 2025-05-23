@@ -13,6 +13,11 @@
 
 Check out the live website: [https://fdjts.github.io/Infiniware/](https://fdjts.github.io/Infiniware/)
 
+## Website's Video
+
+Check out website's video: [https://www.youtube/infinwareprocess.com](https://youtu.be/BAvqM67ac20?si=IOtPcakf94meCQGG)
+
+
 ## Tech Stack
 
 - HTML
